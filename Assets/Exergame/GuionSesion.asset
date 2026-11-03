@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d88408d6c8b411429b2db671c1b5923, type: 3}
+  m_Name: GuionSesion
+  m_EditorClassIdentifier: 
+  provisional: 1
+  ensayos:
+  - numero: 1
+    nivel: 1
+    bloque: 
+    regla: 0
+    anunciado: 0
+    incongruente: 0
+    ventanaSegundos: 0
+    soloRojoAzul: 1
+  - numero: 2
+    nivel: 1
+    bloque: 
+    regla: 0
+    anunciado: 1
+    incongruente: 0
+    ventanaSegundos: 0
+    soloRojoAzul: 1
+  - numero: 3
+    nivel: 1
+    bloque: 
+    regla: 0
+    anunciado: 1
+    incongruente: 0
+    ventanaSegundos: 0
+    soloRojoAzul: 1
+  - numero: 4
+    nivel: 1
+    bloque: 
+    regla: 0
+    anunciado: 0
+    incongruente: 0
+    ventanaSegundos: 0
+    soloRojoAzul: 1
+  - numero: 5
+    nivel: 2
+    bloque: 
+    regla: 0
+    anunciado: 2
+    incongruente: 0
+    ventanaSegundos: 6
+    soloRojoAzul: 0
+  - numero: 6
+    nivel: 2
+    bloque: 
+    regla: 0
+    anunciado: 3
+    incongruente: 1
+    ventanaSegundos: 6
+    soloRojoAzul: 0
+  - numero: 7
+    nivel: 2
+    bloque: 
+    regla: 0
+    anunciado: 0
+    incongruente: 0
+    ventanaSegundos: 6
+    soloRojoAzul: 0
+  - numero: 8
+    nivel: 2
+    bloque: 
+    regla: 0
+    anunciado: 1
+    incongruente: 0
+    ventanaSegundos: 6
+    soloRojoAzul: 0
+  - numero: 9
+    nivel: 3
+    bloque: A
+    regla: 0
+    anunciado: 1
+    incongruente: 1
+    ventanaSegundos: 4
+    soloRojoAzul: 0
+  - numero: 10
+    nivel: 3
+    bloque: A
+    regla: 0
+    anunciado: 2
+    incongruente: 0
+    ventanaSegundos: 4
+    soloRojoAzul: 0
+  - numero: 11
+    nivel: 3
+    bloque: A
+    regla: 0
+    anunciado: 3
+    incongruente: 1
+    ventanaSegundos: 4
+    soloRojoAzul: 0
+  - numero: 12
+    nivel: 3
+    bloque: A
+    regla: 0
+    anunciado: 0
+    incongruente: 0
+    ventanaSegundos: 4
+    soloRojoAzul: 0
+  - numero: 13
+    nivel: 3
+    bloque: B
+    regla: 1
+    anunciado: 0
+    incongruente: 1
+    ventanaSegundos: 4
+    soloRojoAzul: 0
+  - numero: 14
+    nivel: 3
+    bloque: B
+    regla: 1
+    anunciado: 3
+    incongruente: 0
+    ventanaSegundos: 4
+    soloRojoAzul: 0
+  - numero: 15
+    nivel: 3
+    bloque: B
+    regla: 1
+    anunciado: 2
+    incongruente: 1
+    ventanaSegundos: 4
+    soloRojoAzul: 0
+  - numero: 16
+    nivel: 3
+    bloque: B
+    regla: 1
+    anunciado: 1
+    incongruente: 0
+    ventanaSegundos: 4
+    soloRojoAzul: 0
