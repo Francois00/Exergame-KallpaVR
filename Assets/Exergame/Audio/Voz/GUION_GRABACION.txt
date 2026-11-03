@@ -1,0 +1,45 @@
+﻿GUION DE GRABACION - Exergame VR (version segun Especificacion Final)
+=====================================================================
+Voces actuales: TEMPORALES (generadas por computadora). Reemplazar por grabaciones reales,
+idealmente LAS MISMAS que se usan en la fase manual (maqueta), para que ambas fases sean comparables.
+
+Como grabar:
+- Voz clara y pausada, espanol neutro. Lugar silencioso.
+- Guardar cada frase como .wav con el nombre EXACTO de la izquierda.
+- Copiar a Assets/Exergame/Audio/Voz/ (reemplazan a los actuales).
+- Cortar el silencio al inicio y al final de cada audio: cada segundo de silencio alarga la sesion.
+
+COLORES (los mismos 4 audios de la fase manual)
+rojo.wav          "Rojo"
+azul.wav          "Azul"
+verde.wav         "Verde"
+amarillo.wav      "Amarillo"
+
+INSTRUCCIONES (version corta)
+bienvenida.wav    "Hola, vamos a jugar."
+este_es.wav       "Este es el..."   (sesion 1: el personaje levanta cada color; decirlo como si la frase siguiera)
+explicacion.wav   "Yo voy a decir un color. Toque ese color. Los de la izquierda, con la mano izquierda. Los de la derecha, con la mano derecha. Yo le voy a mostrar otro color. No se fije en ese: toque el color que escucha."   (solo sesion 1)
+recordatorio.wav  "Recuerde: toque el color que yo digo."   (sesiones 2 a 6)
+cambio_regla.wav  "Ahora cambia la regla: toca el color que ves, no el que escuchas."   (frase FIJA de la especificacion)
+continuamos.wav   "Continuamos."   (despues de una pausa)
+fin.wav           "Terminamos. Muchas gracias!"
+
+PRESENTACION DEL RATON Y PRACTICA CON GLOBOS (nuevas: grabar como 12 a 17)
+presentacion.wav        (12) "¡Hola! Yo le voy a ayudar en el juego. Escuche bien y siga mis indicaciones."
+practica_inicio.wav     (13) "Antes de empezar, vamos a practicar."
+practica_izquierda.wav  (14) "Toque el globo morado, con su mano izquierda."
+practica_derecha.wav    (15) "Muy bien. Ahora toque el globo naranja, con su mano derecha."
+practica_fin.wav        (16) "¡Excelente! Ya está listo. ¡Vamos a jugar!"
+practica_otra_mano.wav  (17) "Con la otra mano, por favor."
+RECORDATORIO DE REGLA Y MANOS LIBRES (nuevas: grabar como 18 a 21; hoy son voces de computadora)
+recuerde_muestra.wav       (18) "Recuerde: toque el color que ve en el letrero, no el que escucha."
+                                (se dice si se equivoca 2 veces seguidas con la regla del letrero;
+                                 con la regla de escuchar se usa recordatorio.wav)
+manos_libres_clasico.wav   (19) "Vamos a practicar. Empuje los círculos, las veces que quiera."
+manos_libres_globos.wav    (20) "Vamos a practicar. Reviente los globos, las veces que quiera."
+manos_libres_tambores.wav  (21) "Vamos a practicar. Toque los tambores, las veces que quiera."
+Despues de copiarlas: Exergame > "Asignar voces grabadas (12 a 21)".
+
+Si existen presentacion.wav o practica_fin.wav, el juego ya no dice "Hola, vamos a jugar" (para no repetir).
+
+SALUDO Y DESPEDIDA PERSONAL: pendiente (todavia no se graban nombres).
