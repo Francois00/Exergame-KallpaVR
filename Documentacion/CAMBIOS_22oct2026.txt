@@ -1,0 +1,45 @@
+﻿EXERGAME VR - CAMBIOS DESDE EL PAQUETE DEL 20/10/2026
+=====================================================
+Paquete del 22/10/2026. Abrir igual que antes (ver LEEME.txt).
+
+ESCENARIOS (nuevo)
+ - Tres escenarios elegibles desde el panel: Clasico, Globos (Plaza de Arequipa) y Tambores (Jardin musical).
+ - La tarea es la misma (tablero 2x2, mismo orden de colores); solo cambian el objeto, el entorno 360 y la recompensa.
+ - Globos: al acertar revienta con confeti y sonido "pop"; al fallar se tambalea.
+ - Tambores: al acertar suena (do-mi-sol-do), salen ondas y notas; al fallar, golpe apagado.
+ - Motivacion: frases de felicitacion, aplausos cada 3 aciertos seguidos, tira de 16 estrellas y
+   pantalla final "Felicitaciones, hoy acerto X de 16" con fanfarria.
+ - Archivos: Scripts/Escenarios.cs, EstimuloTema.cs, EntornoTema.cs, AmbienteAnimado.cs, Felicitacion.cs,
+   ProgresoLogros.cs, MallasProcedurales.cs (ampliado).
+ - Propuesta (solo imagenes, aun no programado): escenario de Futbol en Documentacion/Propuestas.
+
+PANEL DEL EVALUADOR (web)
+ - En la laptop: http://localhost:8095 (sin PIN). Se abre solo al dar Play.
+ - "Abrir en el celular": muestra un QR con el link y el PIN (celular y laptop en la misma red).
+ - En vivo: elegir participante, sesion, "Con un residente" o "Prueba del equipo", escenario, e Iniciar.
+   Aviso si el residente queda mirando de costado + boton Recentrar.
+ - Resultados: por defecto solo sesiones con residentes; tarjetas por participante, "Lo mas importante",
+   graficos (aciertos, tiempo, errores), ver ensayos, marcar prueba/real, quitar del historial,
+   descargar Excel (CSV), glosario.
+ - Vaciar historial = mueve los archivos a la carpeta "Archivo_pruebas" (nunca borra).
+   Tambien desde el menu Exergame > "Archivar historial de pruebas (esta PC)".
+
+EN EL VISOR
+ - El residente ya no ve el menu del supervisor: solo "Bienvenido, en un momento empezamos" (a 2 m).
+   Respaldo sin panel: mantener los dos botones laterales 3 s (en la PC, tecla M).
+ - Alcance: tablero 15 cm mas cerca, 4 cm mas bajo e inclinado; Mousey movida para no taparlo.
+ - Centrado: se centra una sola vez al empezar, cuando la cabeza esta quieta. Sin recentrados automaticos.
+ - Con Meta Link: los controles se siguen leyendo aunque Unity no tenga el foco (Scripts/EntradaSinFoco.cs).
+ - Voces grabadas de presentacion y practica (frases 12 a 17) en Audio/Voz; se asignan solas
+   (o Exergame > "Asignar voces grabadas (12 a 17)").
+
+DATOS
+ - Los CSV ahora incluyen escenario y tipo de sesion (real / prueba).
+ - Los datos NO van dentro del zip: estan en cada PC en
+   C:\Users\<usuario>\AppData\LocalLow\UCSM\Exergame VR  (solo codigos anonimos).
+ - Sesiones reales registradas en la PC principal: P01, P02, P03 (20/10/2026).
+
+PENDIENTE
+ - Volver a compilar el APK para el visor (Exergame > Compilar e instalar en Quest) para que el visor
+   tenga todo lo anterior; hoy el visor tiene la version vieja.
+ - Revisar deteccion de controles con Meta Link si las manos no aparecen (ver LEEME, seccion MANOS).

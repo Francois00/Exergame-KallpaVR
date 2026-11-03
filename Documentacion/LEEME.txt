@@ -1,0 +1,54 @@
+﻿EXERGAME VR - Proyecto de Unity (UCSM)
+======================================
+Guia completa con tabla de problemas y soluciones: Documentacion/GUIA_INSTALACION_Y_DIAGNOSTICO.pdf
+Novedades de esta version: Documentacion/CAMBIOS_22oct2026.txt
+
+ANTES DE EMPEZAR
+   - Unity 2022.3.62f3 EXACTO (Unity Hub > Installs > Install Editor > Archive).
+     Con el modulo "Android Build Support" (OpenJDK + Android SDK & NDK).
+   - Internet la PRIMERA vez que se abre (Unity descarga los paquetes: URP, XR, OpenXR, TextMeshPro).
+   - Ruta corta, sin tildes: por ejemplo D:\Exergame  (NO Descargas, Escritorio ni OneDrive).
+   - 10 GB libres.
+
+1) DESCOMPRIMIR
+   - Clic derecho en el .zip/.rar > "Extraer aqui".
+   - Debe quedar una carpeta con: Assets, Packages, ProjectSettings, Documentacion.
+
+2) ABRIR
+   - Unity Hub > Projects > Add > "Add project from disk" > la carpeta que contiene "Assets".
+   - Debe decir 2022.3.62f3. Si pide "Upgrade" u ofrece otra version: NO aceptar.
+   - Esperar (la primera vez tarda). Si pregunta "Enter Safe Mode?": elegir Ignore.
+
+3) DIAGNOSTICO (obligatorio la primera vez)
+   - Menu Exergame > "Diagnostico del proyecto" (se abre solo si detecta problemas).
+   - Boton "Arreglar automaticamente" > "Volver a revisar" > todo en verde > "Abrir escena del juego".
+   - Deja un informe en Diagnostico_Exergame.txt. Si algo sigue en rojo, enviar ese archivo.
+
+4) PROBAR
+   - Escena: Assets/Exergame/Scenes/SalaExergame. Play.
+   - Sin visor: clic izquierdo en botones y globos (clic derecho en un globo = mano equivocada).
+   - Sin visor: tecla M abre el menu de respaldo para elegir participante/escenario.
+   - Panel del evaluador (en Play): se abre solo en http://localhost:8095 (sin PIN).
+     Celular: boton "Abrir en el celular" > escanear el QR (misma red). Elegir escenario y tipo de sesion.
+   - Mousey fuera de lugar o blanco: Exergame > "Presentadora: usar Mousey".
+   - Visor: Link (Horizon Link + Play) o APK: Exergame > "Configurar para Meta Quest 2" y luego
+     "Compilar e instalar en Quest (USB)" o "Solo crear el APK".
+
+SI NO SE VEN LAS MANOS (con Meta Link)
+   = El visor no esta enviando los controles. Agarrar los controles y presionar un boton; revisar pilas;
+   si el Quest esta en "seguimiento de manos", tomar los controles. Reiniciar Link y luego Play.
+
+SI SALE TODO MORADO
+   = Unity no tiene URP o no bajo los paquetes. Diagnostico > Arreglar automaticamente (con internet).
+   Si sigue: cerrar Unity, borrar la carpeta Library del proyecto y abrir otra vez con internet.
+
+SI NO APARECE EL MENU "Exergame"
+   = Hay errores de compilacion (casi siempre por paquetes faltantes). Window > General > Console.
+   Window > Package Manager: revisar que esten URP, XR Interaction Toolkit, OpenXR, TextMeshPro, Input System.
+
+PARA COMPARTIR CAMBIOS
+   - Menu Exergame > "Crear paquete para compartir (.zip)". Nunca copiar archivos sin su .meta
+     ni la carpeta Library.
+
+Datos de participantes: solo codigos anonimos (P01, P02...). Se registra rendimiento cognitivo
+observado; no es una evaluacion de riesgo de caidas ni un diagnostico. Consentimiento: Ley 29733.
