@@ -1,0 +1,69 @@
+# ---- Unity: carpetas generadas (se regeneran al abrir el proyecto) ----
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Burst (se genera al compilar el APK)
+*_BurstDebugInformation_DoNotShip/
+
+# ---- IDE (Visual Studio / Rider / VS Code: los regenera Unity) ----
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+ExportedObj/
+.consulo/
+
+# ---- Compilados y firmas ----
+*.apk
+*.aab
+*.obb
+*.unitypackage
+*.keystore
+*.jks
+crashlytics-build.properties
+sysinfo.txt
+
+# ---- Datos de participantes y bases de datos (nunca al repositorio) ----
+*.csv
+*.db
+*.sqlite
+Archivo_pruebas/
+
+# ---- Reportes locales del equipo ----
+Diagnostico_Exergame.txt
+EVIDENCIA_GIT.txt
+
+# ---- Secretos ----
+.env
+.env.*
+*.pem
+*.key
+secrets/
+docs/configuracion.local.md
+
+# ---- Paquetes para compartir (menu Exergame > Crear paquete .zip) ----
+Exergame_para_compartir_*.zip
+
+# ---- Sistema ----
+.DS_Store
+Thumbs.db
+desktop.ini
